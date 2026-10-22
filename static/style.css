@@ -1,3 +1,68 @@
-h1 {
-    color: blue;
+body {
+    background-color: #0B1424;
+}
+
+.apresentacao {
+    color: #2784FF;
+    font-size: 5;
+
+}
+
+.titulo-principal {
+    color: #2784FF;
+
+    span {
+        color: rgb(253, 253, 253);
+    }
+}
+
+.p1 {
+    color: #B7C9E8;
+}
+
+.sobre-mim {
+    color: #2784FF;
+}
+
+.sobre-mim-titulo {
+    color: #F4F7FF;
+}
+
+.p-sobre-mim {
+    color: #B7C9E8;
+}
+
+.projects {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.botao {
+
+    color: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+
+
+
+}
+
+.botao-azul {
+    background-color: #2784FF;
+
+
+}
+
+.botao-transparente {
+    background-color: transparent;
+    border: 1px solid #2784FF;
 }
