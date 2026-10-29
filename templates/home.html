@@ -5,24 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css' ) }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css' ) }}">
 </head>
 
 <body>
+    <section class="hero">
+        <h1 class="apresentacao">Olá, eu sou o Gabriel :v </h1>
 
-    <h1 class="apresentacao">Olá, eu sou o Gabriel :v </h1>
-    <img src="{{url_for('static',filename='eu.jpg')}}" alt="">
-    <h2 class="titulo-principal"><span>Desenvolvedor em</span> formação</h2>
-    <class class="p1">Sou estudante de Análise e Desenvolvimento de Sistemas e tenho interesse em criar soluções que
-        unem tecnologia criatividade e praticidade.</class><br><br>
-    <header>
-        <a href="/projects" class="botao botao-azul">
-            Ver meus projetos
-        </a>
-        <a href="/contato" class="botao botao-transparente">
-            Entrar em contato
-        </a>
-    </header>
+        <div class="apresentacao-img">
+            <h2 class="titulo-principal"><span>Desenvolvedor em</span> formação</h2>
+            <p class="p1">
+                Sou estudante de Análise e Desenvolvimento de Sistemas e tenho interesse em criar soluções
+                que unem tecnologia criatividade e praticidade.</p><br>
+            <div class="botoes">
+                <a href="/projects" class="botao botao-azul">
+                    Ver meus projetos
+                </a>
+                <a href="/contato" class="botao botao-transparente">
+                    Entrar em contato
+                </a>
+            </div>
+
+        </div>
+    </section>
+
 
     <h2 class="sobre-mim">Sobre mim:</h2>
     <h2 class="sobre-mim-titulo">Um pouco sobre mim</h2>

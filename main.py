@@ -13,7 +13,7 @@ def contact_me():
     return render_template("contact.html")
 
 
-@app.route("/projects")
+@app.route("/projectsflatpak run com.spotify.Client")
 def my_projects():
     return render_template("projects.html")
 
