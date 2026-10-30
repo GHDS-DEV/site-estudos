@@ -44,8 +44,22 @@ body {
 }
 
 .p-sobre-mim {
-    color: #B7C9E8;
+    color: #F4F7FF;
+    width: 300px;
+    padding: 24px;
+    border-radius: 24%;
+    text-align: left;
+    background-color: #2784FF;
+    box-shadow: px 4px 10px rgba(0, 0, 0, 0.3);
+
+
+
+
+
 }
+
+
+
 
 .projects {
     display: inline-flex;
@@ -71,15 +85,25 @@ body {
 
 }
 
+
 .botao-azul {
     background-color: #2784FF;
 
 
 }
 
+.botao-azul:hover {
+    background-color: #0753d6;
+}
+
+
 .botao-transparente {
     background-color: transparent;
     border: 1px solid #2784FF;
+}
+
+.botao-transparente:hover {
+    background-color: #0753d6;
 }
 
 
@@ -97,4 +121,41 @@ body {
 .apresentacao-img titulo-principal {
     color: #B7C9E8;
     line-height: 1.7;
+}
+
+nav {
+    display: flex;
+    margin: 0;
+    gap: 30px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav a:hover {
+    background-color: #0753d6;
+}
+
+.projetos_topo {
+    color: white;
+    padding: 16px 24px;
+    border-radius: 24px;
+    text-decoration: none;
+    background-color: #2784FF;
+}
+
+.home_topo {
+    color: white;
+    padding: 16px 24px;
+    border-radius: 24px;
+    text-decoration: none;
+    background-color: #2784FF;
+}
+
+.contato_topo {
+    color: white;
+    padding: 16px 24px;
+    border-radius: 24px;
+    text-decoration: none;
+    background-color: #2784FF;
+
 }

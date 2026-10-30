@@ -2,44 +2,56 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png' ) }}" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GH portfólio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css' ) }}">
 </head>
 
 <body>
-    <section class="hero">
-        <h1 class="apresentacao">Olá, eu sou o Gabriel :v </h1>
+    <div class="box">
+        <header>  
+            <nav>
+                <a href="/" class="home_topo">home</a>
+                <a href="/projects" class="projetos_topo">Projetos</a>
+                <a href="/contato" class="contato_topo">Contato</a>
 
-        <div class="apresentacao-img">
-            <h2 class="titulo-principal"><span>Desenvolvedor em</span> formação</h2>
-            <p class="p1">
-                Sou estudante de Análise e Desenvolvimento de Sistemas e tenho interesse em criar soluções
-                que unem tecnologia criatividade e praticidade.</p><br>
-            <div class="botoes">
-                <a href="/projects" class="botao botao-azul">
-                    Ver meus projetos
-                </a>
-                <a href="/contato" class="botao botao-transparente">
-                    Entrar em contato
-                </a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1 class="apresentacao">Olá, eu sou o Gabriel :v </h1>
+
+            <div class="apresentacao-img">
+                <h2 class="titulo-principal"><span>Desenvolvedor em</span> formação</h2>
+                <p class="p1">
+                    Sou estudante de Análise e Desenvolvimento de Sistemas e tenho interesse em criar soluções
+                    que unem tecnologia criatividade e praticidade.</p><br>
+                <div class="botoes">
+                    <a href="/projects" class="botao botao-azul">
+                        Ver meus projetos
+                    </a>
+                    <a href="/contato" class="botao botao-transparente">
+                        Entrar em contato
+                    </a>
+                </div>
+
             </div>
-
-        </div>
-    </section>
+        </section>
 
 
-    <h2 class="sobre-mim">Sobre mim:</h2>
-    <h2 class="sobre-mim-titulo">Um pouco sobre mim</h2>
-    <p class="p-sobre-mim">Sou uma pessoa curiosa, gosto de aprender coisas novas e estou sempre buscando melhorar.
-        Tenho interesse na área de tecnologia, especialmente no desenvolvimento web e em ferramentas como Python e
-        Flask.br
+        <h2 class="sobre-mim">Sobre mim:</h2>
+        <h2 class="sobre-mim-titulo">Um pouco sobre mim</h2>
+        <p class="p-sobre-mim">Sou uma pessoa curiosa, gosto de aprender coisas novas e estou sempre buscando melhorar.
+            Tenho interesse na área de tecnologia, especialmente no desenvolvimento web e em ferramentas como Python e
+            Flask.br
 
 
 
-        Esse portfólio é um projeto que estou desenvolvendo para praticar e evoluir, aplicando o que estou aprendendo no
-        dia a dia.</p>
+            Esse portfólio é um projeto que estou desenvolvendo para praticar e evoluir, aplicando o que estou
+            aprendendo no
+            dia a dia.</p>
 
 
 
